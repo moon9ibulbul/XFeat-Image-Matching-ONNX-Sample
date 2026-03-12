@@ -108,8 +108,7 @@ def main():
         flags=2,
     )
 
-    cv2.imshow('', debug_image)
-    cv2.waitKey(-1)
+    cv2.imwrite('output.png', debug_image)
 
 
 if __name__ == '__main__':
