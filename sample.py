@@ -34,7 +34,7 @@ def get_args() -> argparse.Namespace:
     parser.add_argument(
         '--image1',
         type=str,
-        default='image/sample1.jpg',
+        default='image/sample1.png',
     )
     parser.add_argument(
         '--image2',
